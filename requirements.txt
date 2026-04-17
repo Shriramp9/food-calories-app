@@ -4,3 +4,5 @@ opencv-python-headless
 pandas
 pillow
 numpy
+torch
+torchvision
