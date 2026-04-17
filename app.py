@@ -1,11 +1,15 @@
+import os
+os.environ["OPENCV_IO_ENABLE_OPENEXR"] = "0"
+os.environ["OMP_NUM_THREADS"] = "1"
+
 import streamlit as st
-from ultralytics import YOLO
 import pandas as pd
 from PIL import Image
-import cv2
 import numpy as np
-import os
 from datetime import datetime
+
+# Fix for libGL error on Streamlit Cloud
+import cv2
 
 # ── Model & Data ──────────────────────────────────────────────────
 @st.cache_resource
