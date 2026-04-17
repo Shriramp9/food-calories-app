@@ -1,10 +1,6 @@
 streamlit
-ultralytics
-opencv-python-headless
+ultralytics==8.0.196
+opencv-python-headless==4.8.1.78
 pandas
 pillow
 numpy
-torch
-torchvision
-libgl1-mesa-glx
-libglib2.0-0
